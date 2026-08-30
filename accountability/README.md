@@ -30,3 +30,40 @@ Cap **$3,000 USDC / 4-week period**, split **evenly four ways at $750/line**. Se
 Copy improvements are counted **per document** here, giving 13 against a floor of 8. Counted per PR the figure is 3, which would miss. PROPOSAL.md does not define which applies, and the difference is worth $187.50 on this line alone. Per-document is the reading used since the line was written, and it matches how the work actually lands, but this should be defined explicitly in the Period 2 table rather than settled again after the fact.
 
 _(Copy this block for each subsequent period. 7 periods total, ending ~18 January 2027.)_
+
+## Period 2 — 3 August to 30 August 2026
+
+**Counting basis:** copy improvements are counted per document, the reading used since Period 1 (see that period's open question). Stated here up front rather than settled after the fact.
+
+| Criterion | Committed | Delivered | Met? | Line value | Released | Evidence |
+|---|---|---:|:---:|---:|---:|---|
+| Copy improvements | ≥ 8 | 9 | ✅ | $750 | $750 | #228 |
+| Functionality improvements | ≥ 4 | 6 | ✅ | $750 | $750 | #213, #228 |
+| Maintenance (issues current) | backlog cleared | cleared | ✅ | $750 | $750 | #228 |
+| New-feature coverage | doc within ~7 days | 3 of 3 | ✅ | $750 | $750 | #228 |
+
+**Released:** $3,000 / $3,000
+
+**Merge timing, stated plainly:** the period's work was complete, pushed, and green on [#228](https://github.com/Arrow-air/website/pull/228) and [#213](https://github.com/Arrow-air/website/pull/213) at period close, with the code-owner review requested the same evening. Live URLs below marked *(lands on merge)* resolve once the PRs merge and the staging build deploys.
+
+### Evidence — 3 Aug – 30 Aug, `Arrow-air/website`
+
+**Copy improvements (9 documents), all in #228.** Working Async, the GitHub Guide, Grants & Bounties, and Snapshot (DAO Votes) written as full pages — the first two also carry new contributor-expectations copy (link-sharing with context, how bounties are awarded, temperature-checking a PR before building, retroactive contributions). The Glossary rebuilt from a JS-data stub into a prose glossary. The Active Project List written as a new governance page. Calls & Events rewritten around the current Discord event roster with the Events-tab visual. Getting Started restructured with a Growing Arrow path and engineers routed to the open meetings. The changelog caught up from April through August with a stated two-weekly Tuesday cadence.
+
+- Working Async — https://arrowair.com/docs/community/working-async *(lands on merge)*
+- GitHub Guide — https://arrowair.com/docs/guides/github-guide *(lands on merge)*
+- Grants & Bounties — https://arrowair.com/docs/contributing/grants-bounties *(lands on merge)*
+- Snapshot (DAO Votes) — https://arrowair.com/docs/reference/snapshot *(lands on merge)*
+- Glossary — https://arrowair.com/docs/reference/glossary *(lands on merge)*
+- Active Project List — https://arrowair.com/docs/governance/active-project-list *(lands on merge)*
+- Calls & Events — https://arrowair.com/docs/community/community-calls *(lands on merge)*
+- Getting Started — https://arrowair.com/docs/overview/getting-started *(lands on merge)*
+- Changelog — https://arrowair.com/docs/changelog *(lands on merge)*
+
+**Functionality improvements (6).** #213: exploded view, component labels and materials for the Quiver 3D viewer. #228: changelog draft generator (`npm run changelog-draft`); live AIP index reading Arrow-air/dao-aips at view time (corrected AIP-005's type on first render); changelog image galleries with lightbox and jump-to-line links; live Snapshot proposals on the Snapshot reference page; the binding AIP-007 projects table read live on the Active Project List. One-click copy for the token page's key addresses shipped alongside, uncounted.
+
+**Maintenance.** The markdown link checker was failing on staging (bot-blocking domains on the token page); repaired in #228 together with route patterns for /quiver and /spearhead. No docs issues were opened and left unresolved in the period.
+
+**New-feature coverage (3 of 3).** The $ARROW token page and CoinGecko verification went to production 4 Aug with its docs in the same window. The Caribou Phase 2 Snapshot vote is reflected on the Active Project List status line and the Snapshot page lists it live. The AIP-007 amendment adding the three operations projects merged 30 Aug and appeared the same day via the live AIP index and projects table — coverage lag of zero, which is what the live-data approach was for.
+
+_(7 periods total, ending ~18 January 2027.)_
