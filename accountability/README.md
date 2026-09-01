@@ -44,21 +44,21 @@ _(Copy this block for each subsequent period. 7 periods total, ending ~18 Januar
 
 **Released:** $3,000 / $3,000
 
-**Merge timing, stated plainly:** the period's work was complete, pushed, and green on [#228](https://github.com/Arrow-air/website/pull/228) and [#213](https://github.com/Arrow-air/website/pull/213) at period close, with the code-owner review requested the same evening. Live URLs below marked *(lands on merge)* resolve once the PRs merge and the staging build deploys.
+**Merge timing, stated plainly:** the period's work was complete, pushed, and green on [#228](https://github.com/Arrow-air/website/pull/228) and [#213](https://github.com/Arrow-air/website/pull/213) at period close, with the code-owner review requested the same evening. Both merged to staging 31 Aug; staging was promoted to production via [#230](https://github.com/Arrow-air/website/pull/230) on 1 Sep, and every URL below is live and verified.
 
 ### Evidence — 3 Aug – 30 Aug, `Arrow-air/website`
 
 **Copy improvements (9 documents), all in #228.** Working Async, the GitHub Guide, Grants & Bounties, and Snapshot (DAO Votes) written as full pages — the first two also carry new contributor-expectations copy (link-sharing with context, how bounties are awarded, temperature-checking a PR before building, retroactive contributions). The Glossary rebuilt from a JS-data stub into a prose glossary. The Active Project List written as a new governance page. Calls & Events rewritten around the current Discord event roster with the Events-tab visual. Getting Started restructured with a Growing Arrow path and engineers routed to the open meetings. The changelog caught up from April through August with a stated two-weekly Tuesday cadence.
 
-- Working Async — https://arrowair.com/docs/community/working-async *(lands on merge)*
-- GitHub Guide — https://arrowair.com/docs/guides/github-guide *(lands on merge)*
-- Grants & Bounties — https://arrowair.com/docs/contributing/grants-bounties *(lands on merge)*
-- Snapshot (DAO Votes) — https://arrowair.com/docs/reference/snapshot *(lands on merge)*
-- Glossary — https://arrowair.com/docs/reference/glossary *(lands on merge)*
-- Active Project List — https://arrowair.com/docs/governance/active-project-list *(lands on merge)*
-- Calls & Events — https://arrowair.com/docs/community/community-calls *(lands on merge)*
-- Getting Started — https://arrowair.com/docs/overview/getting-started *(lands on merge)*
-- Changelog — https://arrowair.com/docs/changelog *(lands on merge)*
+- Working Async — https://arrowair.com/docs/community/working-async
+- GitHub Guide — https://arrowair.com/docs/guides/github-guide
+- Grants & Bounties — https://arrowair.com/docs/contributing/grants-bounties
+- Snapshot (DAO Votes) — https://arrowair.com/docs/reference/snapshot
+- Glossary — https://arrowair.com/docs/reference/glossary
+- Active Project List — https://arrowair.com/docs/governance/active-project-list
+- Calls & Events — https://arrowair.com/docs/community/community-calls
+- Getting Started — https://arrowair.com/docs/overview/getting-started
+- Changelog — https://arrowair.com/docs/changelog
 
 **Functionality improvements (6).** #213: exploded view, component labels and materials for the Quiver 3D viewer. #228: changelog draft generator (`npm run changelog-draft`); live AIP index reading Arrow-air/dao-aips at view time (corrected AIP-005's type on first render); changelog image galleries with lightbox and jump-to-line links; live Snapshot proposals on the Snapshot reference page; the binding AIP-007 projects table read live on the Active Project List. One-click copy for the token page's key addresses shipped alongside, uncounted.
 
