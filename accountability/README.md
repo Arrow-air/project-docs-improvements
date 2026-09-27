@@ -66,4 +66,45 @@ _(Copy this block for each subsequent period. 7 periods total, ending ~18 Januar
 
 **New-feature coverage (3 of 3).** The $ARROW token page and CoinGecko verification went to production 4 Aug with its docs in the same window. The Caribou Phase 2 Snapshot vote is reflected on the Active Project List status line and the Snapshot page lists it live. The AIP-007 amendment adding the three operations projects merged 30 Aug and appeared the same day via the live AIP index and projects table — coverage lag of zero, which is what the live-data approach was for.
 
+## Period 3: 31 August to 27 September 2026
+
+**Counting basis:** copy improvements are counted per document, as in Periods 1 and 2. The sidebar regroup and the removal of four duplicate stub pages are each counted once as a restructure, not per page.
+
+| Criterion | Committed | Delivered | Met? | Line value | Released | Evidence |
+|---|---|---:|:---:|---:|---:|---|
+| Copy improvements | ≥ 8 | 11 | ✅ | $750 | $750 | #237, #238, #242 |
+| Functionality improvements | ≥ 4 | 5 | ✅ | $750 | $750 | #240, #241, #242, #243, #244 |
+| Maintenance (issues current) | backlog cleared | cleared | ✅ | $750 | $750 | #238, #239, project-quiver#272 |
+| New-feature coverage | doc within ~7 days | 0 of 0 | ✅ | $750 | $750 | none shipped in the window |
+
+**Released:** $3,000 / $3,000
+
+**Merge timing, stated plainly:** the period's work was complete and pushed at close. PRs [#237](https://github.com/Arrow-air/website/pull/237) to [#244](https://github.com/Arrow-air/website/pull/244) and [project-quiver#272](https://github.com/Arrow-air/project-quiver/pull/272) were opened at 23:11 UTC on 27 September (00:11 on 28 September UK time), with code-owner review requested on opening and all checks green. Three PRs are stacked on others: #242 on #237, and #243 and #244 on #238. Merge and production promotion will be noted here once they land.
+
+### Evidence: 31 Aug to 27 Sep, `Arrow-air/website`
+
+**Copy improvements (11).** All in [#238](https://github.com/Arrow-air/website/pull/238) unless noted.
+
+- Grants & Bounties Committee: written from AIP-002 and AIP-003, with a notice that the committee is currently inactive
+- Contracts API reference: deployed addresses, and the functions of the ARROW token and the vesting escrows
+- Token Contracts introduction: rewritten to describe what is on-chain
+- DAO Resources: published as a grouped directory of Arrow's tools and pages
+- Why a DAO?, Treasury and Grants & Bounties: updated to describe project leads handling compensation, with Treasury linking AIP-009 as a planned revenue source and Grants & Bounties covering all three funding shapes
+- DAO Voting: current projects and the GBC funding history
+- ARROW Token: Rubicon and Uniswap v3 pools, and AIP-009 described as a basic design still being finalized
+- The docs sidebar regrouped into nested sections, one restructure ([#237](https://github.com/Arrow-air/website/pull/237))
+- Four duplicate stub pages removed and redirected to the pages that cover them, one restructure ([#242](https://github.com/Arrow-air/website/pull/242))
+
+**Functionality improvements (5).**
+
+- Client-side redirects for removed pages and `/docs/<project>` URLs ([#242](https://github.com/Arrow-air/website/pull/242))
+- A stale docs report (`npm run stale-docs`) and a monthly review issue ([#241](https://github.com/Arrow-air/website/pull/241))
+- An animated governance loop on Why a DAO? ([#240](https://github.com/Arrow-air/website/pull/240))
+- Live GBC membership read from AIP-003 ([#243](https://github.com/Arrow-air/website/pull/243))
+- Copy buttons on contract and multisig addresses ([#244](https://github.com/Arrow-air/website/pull/244))
+
+**Maintenance.** The vesting guide gave the ARROW token's address as the vesting factory and described contracts contributors never used; with contributor vesting finished, it was removed ([#238](https://github.com/Arrow-air/website/pull/238)). Inline code overlapped on wrapped lines ([#239](https://github.com/Arrow-air/website/pull/239)). The kitchen sink test page was published with lorem ipsum and is now kept to the dev server ([#238](https://github.com/Arrow-air/website/pull/238)). Six dead links in the Quiver README fixed ([project-quiver#272](https://github.com/Arrow-air/project-quiver/pull/272)). No docs issues were opened and left unresolved in the period.
+
+**New-feature coverage (0 of 0).** No AIPs merged in `dao-aips` between 31 August and 27 September, and no new DAO feature or process change shipped in the window.
+
 _(7 periods total, ending ~18 January 2027.)_
