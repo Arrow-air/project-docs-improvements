@@ -11,7 +11,7 @@ Arrow DAO project under [AIP-006](https://github.com/Arrow-air/dao-aips/blob/mai
 | **Frozen spec** | [PROPOSAL.md @ `v1-proposal`](./PROPOSAL.md) — the version the vote binds |
 | **Accountability** | [accountability/](./accountability/) — updated each period; no table, no payment |
 
-**Links:** [forum proposal](https://dao.arrowair.com/t/media-docs-compass-project-proposal-discussion/169) · Snapshot vote [TODO] · [AIP-007 amendment](https://github.com/Arrow-air/dao-aips/pull/20)
+**Links:** [forum proposal](https://dao.arrowair.com/t/media-docs-compass-project-proposal-discussion/169) · [Snapshot](https://snapshot.org/#/s:arrowair.eth) · [AIP-007 amendment](https://github.com/Arrow-air/dao-aips/pull/20)
 
 ## What this is
 
